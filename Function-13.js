@@ -13,3 +13,6 @@ function print(a){
         j *= 2;
     }
 }
+
+// let x = Math.sqrt(4);
+// console.log(x);
