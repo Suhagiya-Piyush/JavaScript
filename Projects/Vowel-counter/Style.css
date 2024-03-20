@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0,0,0,1);
+}
+.heading {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: darkslateblue;
+}
+#textarea {
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#textarea:focus-visible{
+    outline: none;
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.output {
+    padding-bottom: 10px;
+    color: brown;
+}

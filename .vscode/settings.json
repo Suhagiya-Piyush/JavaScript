@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "FOR18.C": "cpp",
+    "FOR29.C": "cpp"
+  }
+}

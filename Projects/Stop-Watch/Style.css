@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch{
+    width: 35%;
+}
+.time{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 120px rgba(0,0,0,1);
+    padding: 14px 0;
+}
+.time span{
+    width: 20%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+    color: darkgrey;
+}
+.time span.colon{
+    width: 10px;
+}
+.time span.milliseconds{
+    color: grey;
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    margin-inline: 10px;
+    color: red;
+    background: #fff;
+    font-size: 2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 120px rgba(0,0,0,1);
+}
+.buttons button.active,
+.buttons button.stopActive{
+  pointer-events: none;
+  background-color: rgb(255, 145, 145);
+}

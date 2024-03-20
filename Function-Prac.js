@@ -110,15 +110,29 @@
 
 // Generator Function
 
-function* generate() {
-    yield 1;
-    yield 2;
-    yield 3;
-    return 4;
-}
+// function* generate() {
+//     yield 1;
+//     yield 2;
+//     yield 3;
+//     return 4;
+// }
 
-let generator = generate();
-console.log(generator.next().value); 
-console.log(generator.next().value); 
-console.log(generator.next().value); 
-console.log(generator.next().value); 
+// let generator = generate();
+// console.log(generator.next().value); 
+// console.log(generator.next().value); 
+// console.log(generator.next().value); 
+// console.log(generator.next().value); 
+
+
+// this keyword
+
+let person = {
+    "firstname" : 'John',
+    "lasrname" : 'peter',
+    "age" : 25,
+    "hello" : function(){
+        let data = this.firstname + this.lasrname;
+        return data;
+    }
+}
+console.log(person.hello());
